@@ -36,9 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.play-btn {
+  background-color:black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
 
-.image{
-  width: 100%;
-  height: 50%;
+.play-btn:hover{
+  background-color:#dc3545;
+  color:black;  
+}
+
+.font-family{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background-color: black;
+}
+.bg-card{
+  background: linear-gradient(45deg,#a8c2ed,#d7f9f8)
 }
 
