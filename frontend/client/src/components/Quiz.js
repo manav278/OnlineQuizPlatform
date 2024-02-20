@@ -8,7 +8,7 @@ import geography from "./assets/geography.jpg";
 import architecture from "./assets/architecture.jpg";
 import technology from "./assets/technology.jpg";
 import { Link } from "react-router-dom";
-export default function Com() {
+export default function Quiz() {
   const obj = [
     {
       title: "Math Quiz",
