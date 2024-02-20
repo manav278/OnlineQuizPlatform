@@ -46,23 +46,27 @@ export default function Com() {
   return (
     <div>
       <div className="container-fluid text-light font-family">
-        <div className="row gx-0 gy-3">
+        <div className="row gx-3 gy-3">
           {/* --------------------------------------- */}
           {obj.map((ob, index) => (
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-sm-4 col-md-3">
               <div
                 className="bg-card text-dark"
                 style={{
                   height: "100%",
                   border: "2px solid black",
                   borderRadius: "8px",
-                  width: "90%",
                 }}
               >
                 <div className="row">
                   {/* ---------------------------------------- */}
-
-                  <div className="col-12" style={{paddingLeft:"5%"}}>
+                  <div className="col-12">
+                    <img
+                      src={ob.path}
+                      style={{ width: "100%", height: "12rem" }}
+                    ></img>
+                  </div>
+                  <div className="col-12" style={{ paddingLeft: "5%" }}>
                     <h3>{ob.title}</h3>
                   </div>
 
@@ -86,7 +90,7 @@ export default function Com() {
                             style={{
                               border: "2px",
                               width: "60%",
-                              marginTop: "1%"
+                              marginTop: "1%",
                             }}
                           >
                             <b>Play</b>
@@ -105,8 +109,13 @@ export default function Com() {
                   {/* ---------------------------------------- */}
 
                   <div className="col-12 text-end">
-                    <Link to="/termsconditions" style={{textDecorationColor:"black"}}>
-                      <p style={{ marginRight: "2%",color:"black"}}>View T&C</p>
+                    <Link
+                      to="/termsconditions"
+                      style={{ textDecorationColor: "black" }}
+                    >
+                      <p style={{ marginRight: "2%", color: "black" }}>
+                        View T&C
+                      </p>
                     </Link>
                   </div>
 
