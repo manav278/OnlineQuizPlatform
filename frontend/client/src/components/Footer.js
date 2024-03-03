@@ -23,8 +23,8 @@ export default function Footer() {
   };
   return (
     <>
-      <hr className="text-light"></hr>
-      <div className="container text-white" style={{ marginTop: "1%" }}>
+      <hr className="text-light" style={{ marginTop: "2%" }}></hr>
+      <div className="container text-white" style={{ marginTop: "2%" }}>
         <div className="row">
           <div className="col-12">
             <div style={{ marginLeft: "-0.7%" }}>

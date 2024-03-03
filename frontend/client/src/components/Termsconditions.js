@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
+import MainNav from "./MainNav";
 
 export default function Termsconditions() {
   return (
-    <div className="my-5">
-      <h1 className="text-light" style={{ textAlign: "center"}}>
-        Terms And Conditons
+    <div>
+      <MainNav></MainNav>
+      <h1 className="text-primary" style={{ textAlign: "center",marginBottom:"3%"}}>
+        Terms And Conditions
       </h1>
       <div className="container-fluid" style={{ marginTop: "1%" ,marginBottom:"3%"}}>
         <div className="row justify-content-center">

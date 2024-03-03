@@ -9,45 +9,55 @@ import architecture from "./assets/architecture.jpg";
 import technology from "./assets/technology.jpg";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import MainNav from "./MainNav";
 export default function Quiz() {
   const obj = [
     {
       title: "Math Quiz",
       path: math,
+      alt:"Math"
     },
     {
       title: "History Quiz",
       path: history,
+      alt:"History"
     },
     {
       title: "Science Quiz",
       path: science,
+      alt:"Science"
     },
     {
       title: "Geography Quiz",
       path: geography,
+      alt:"Geography"
     },
     {
       title: "Sports Quiz",
       path: sports,
+      alt:"Sports"
     },
     {
       title: "Architecture Quiz",
       path: architecture,
+      alt:"Architecture"
     },
     {
       title: "Technology Quiz",
       path: technology,
+      alt:"Technology"
     },
     {
       title: "Business Quiz",
       path: business,
+      alt:"Business"
     },
   ];
   return (
     <div>
+      <MainNav></MainNav>
       <div className="container-fluid text-light font-family">
-        <div className="row gx-3 gy-3">
+        <div className="row gx-5 gy-5">
           {/* --------------------------------------- */}
           {obj.map((ob, index) => (
             <div className="col-12 col-sm-4 col-md-3">
@@ -55,8 +65,6 @@ export default function Quiz() {
                 className="bg-card text-dark"
                 style={{
                   height: "100%",
-                  border: "2px solid black",
-                  borderRadius: "8px",
                 }}
               >
                 <div className="row">
@@ -65,6 +73,7 @@ export default function Quiz() {
                     <img
                       src={ob.path}
                       style={{ width: "100%", height: "12rem" }}
+                      alt={ob.alt}
                     ></img>
                   </div>
                   <div className="col-12" style={{ paddingLeft: "5%" }}>

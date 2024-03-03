@@ -62,4 +62,8 @@ body{
 .bg-card{
   background: linear-gradient(45deg,#a8c2ed,#d7f9f8)
 }
+.main-nav{
+  background-color: black;
+  color: whitesmoke;
+}
 
