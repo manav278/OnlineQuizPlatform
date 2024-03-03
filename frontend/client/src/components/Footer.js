@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo.jpg";
 export default function Footer() {
   const handleClickTwitter = () => {
     // Replace 'YourTwitterUsernameHere' with your actual Twitter username
@@ -28,13 +28,13 @@ export default function Footer() {
         <div className="row">
           <div className="col-12">
             <div style={{ marginLeft: "-0.7%" }}>
-              <img src={logo} alt="Logo" width="303.2vw" height="310.4vh"></img>
-              {/* 758*776 */}
+              <img src={logo} alt="Logo" width="181.8vw" height="123.6vh"></img>
+              {/* 606*412 */}
             </div>
           </div>
           <div className="col-12">
             <div className="row">
-              <div className="col-12 col-md-6" style={{ marginTop: "-2%" }}>
+              <div className="col-12 col-md-6" style={{ marginTop: "2%" }}>
                 QuizMania is a online quiz platform for thrilling online
                 quizzes. Our user-friendly interface ensures a seamless
                 experience, allowing you to focus on the thrill of the quiz
