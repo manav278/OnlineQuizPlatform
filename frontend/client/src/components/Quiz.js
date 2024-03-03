@@ -8,6 +8,7 @@ import geography from "./assets/geography.jpg";
 import architecture from "./assets/architecture.jpg";
 import technology from "./assets/technology.jpg";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 export default function Quiz() {
   const obj = [
     {
@@ -126,6 +127,7 @@ export default function Quiz() {
           ))}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

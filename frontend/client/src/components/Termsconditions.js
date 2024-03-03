@@ -1,12 +1,13 @@
 import React from "react";
+import Footer from "./Footer";
 
 export default function Termsconditions() {
   return (
-    <div>
-      <h1 className="text-light" style={{ textAlign: "center",fontFamily:"cursive" }}>
+    <div className="my-5">
+      <h1 className="text-light" style={{ textAlign: "center"}}>
         Terms And Conditons
       </h1>
-      <div className="container-fluid" style={{ marginTop: "1%" }}>
+      <div className="container-fluid" style={{ marginTop: "1%" ,marginBottom:"3%"}}>
         <div className="row justify-content-center">
           <div className="col-9">
             <div
@@ -75,6 +76,7 @@ export default function Termsconditions() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
