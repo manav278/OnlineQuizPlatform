@@ -57,7 +57,7 @@ export default function Quiz() {
     <div>
       <MainNav></MainNav>
       <div className="container-fluid text-light font-family">
-        <div className="row gx-5 gy-5">
+        <div className="row gx-4 gy-5">
           {/* --------------------------------------- */}
           {obj.map((ob, index) => (
             <div className="col-12 col-sm-4 col-md-3">
