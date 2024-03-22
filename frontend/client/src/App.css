@@ -73,3 +73,18 @@ body{
   font-weight: 500;
   font-style: normal;
 }
+
+.play-btn-question{
+  background-color:white;
+  color: black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+.play-btn-question:hover{
+  background-color:#dc3545;
+  color:white;
+  /* color:black;   */
+}
