@@ -1,2 +1,1 @@
-# Onlinequizplatform
-# Author : Manav Jayesh Patel
+# QuizMania is a online quiz platform for thrilling online quizzes. Our user-friendly interface ensures a seamless experience, allowing you to focus on the thrill of the quiz without any distractions. QuizMania is not just a platform; it's a gateway to endless knowledge and entertainment.
